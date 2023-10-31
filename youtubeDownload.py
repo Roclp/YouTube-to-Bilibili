@@ -5,9 +5,9 @@ import time
 import os
 from PIL import Image, ImageEnhance
 from ai import *
-import sys
-
-sys.setrecursionlimit(25)
+# import sys
+#
+# sys.setrecursionlimit(25)
 requests.adapters.DEFAULT_RETRIES = 5
 
 
@@ -173,6 +173,8 @@ if __name__=='__main__':
         'https://www.youtube.com/watch?v=MioVcERdRPA',
         'https://www.youtube.com/watch?v=mzPvlV3SwCo',
         'https://www.youtube.com/watch?v=gw2elb25wPA',
+        'https://www.youtube.com/watch?v=eMLHpGKe5_Y',
+        'https://www.youtube.com/watch?v=p_9trQkmNrI',
 
     ]
 
